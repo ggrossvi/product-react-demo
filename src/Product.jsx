@@ -1,7 +1,14 @@
+
+
 function Product(){
+    
+    
     return(
-        <h1>I am a product file</h1>
+        <div className="product">
+            <h3>Samsung M51</h3>
+        </div>
     )
 }
+
 
 export default Product;
