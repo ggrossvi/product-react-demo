@@ -1,5 +1,7 @@
 
 
+import PropTypes from 'prop-types';
+
 function Product(props){
     console.log(props)
     
@@ -12,5 +14,9 @@ function Product(props){
     )
 }
 
+Product.propTypes = {
+    name: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired
+};
 
 export default Product;
