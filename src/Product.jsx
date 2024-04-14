@@ -1,11 +1,13 @@
 
 
-function Product(){
+function Product(props){
+    console.log(props)
     
     
     return(
         <div className="product">
-            <h3>Samsung M51</h3>
+            <h3>{props.name}</h3>
+            <h4>{props.price}</h4>
         </div>
     )
 }

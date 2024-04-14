@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <h1>Main Component</h1>
-      <Product /> 
+      <Product name = "IPhone 14" price = "1000" /> 
+      <Product name = "DSLR" price = "1500" />
 
     </>
   )
