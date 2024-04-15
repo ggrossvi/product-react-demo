@@ -11,3 +11,10 @@
   background-color: lightgray;
   margin: 10px;
 }
+
+.user {
+  width: fit-content;
+  padding: 20px;
+  background-color: skyblue;
+  margin: 10px;
+}

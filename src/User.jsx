@@ -1,4 +1,3 @@
-import './User.css'
 import React from 'react'
 
 function User()
